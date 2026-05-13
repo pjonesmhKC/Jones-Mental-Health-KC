@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Peter K. Jones, LCSW - Jones Mental Health. Compassionate therapy for anxiety, depression, PTSD, TBI, substance use, schizophrenia, bipolar & more in Leawood & Kansas City area.">
+    <title>Peter K. Jones, LCSW | Jones Mental Health</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; }
+        .hero-bg { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://picsum.photos/id/1015/2000/1200') center/cover no-repeat; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- NAVBAR -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-teal-600 text-white rounded-2xl flex items-center justify-center text-2xl">🧠</div>
+                <div>
+                    <h1 class="text-2xl font-bold">Jones Mental Health</h1>
+                    <p class="text-sm text-teal-600 -mt-1">Peter K. Jones, LCSW</p>
+                </div>
+            </div>
+            <div class="hidden md:flex gap-8 text-lg">
+                <a href="#about" class="hover:text-teal-600">About</a>
+                <a href="#specialties" class="hover:text-teal-600">Specialties</a>
+                <a href="#approach" class="hover:text-teal-600">Approach</a>
+                <a href="#experience" class="hover:text-teal-600">Experience</a>
+                <a href="#contact" class="hover:text-teal-600">Contact</a>
+            </div>
+            <a href="#contact" class="bg-teal-600 text-white px-6 py-3 rounded-2xl font-semibold hover:bg-teal-700">Book Now</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero-bg text-white py-24">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-6xl font-bold mb-4">Peter K. Jones, LCSW</h2>
+            <p class="text-3xl mb-8">Jones Mental Health • Leawood, KS</p>
+            <p class="text-2xl max-w-2xl mx-auto mb-10">Compassionate, direct therapy that builds confidence, solves problems, and creates lasting change.</p>
+            
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="tel:9134042960" class="bg-white text-teal-700 px-10 py-5 rounded-3xl text-xl font-semibold flex items-center gap-3 hover:scale-105 transition">
+                    <i class="fa-solid fa-phone"></i> (913) 404-2960
+                </a>
+                <a href="#contact" class="border-2 border-white text-white px-10 py-5 rounded-3xl text-xl font-semibold hover:bg-white hover:text-teal-700 transition">
+                    Free 15-Min Consultation
+                </a>
+            </div>
+            <p class="mt-8 text-lg">Now accepting new clients • In-person & telehealth</p>
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="max-w-7xl mx-auto px-6 py-20">
+        <h2 class="text-4xl font-bold text-center mb-12">About Me</h2>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <p class="text-lg leading-relaxed mb-6">I work with individuals who have a desire for change with their mental health or are seeking quality of life improvements. Clients who are seeking to improve their lives and are seeking positive change or consultation.</p>
+                <p class="text-lg leading-relaxed">My specialty is helping a person overcome personal challenges with using Cognitive Behavioral Therapy, motivation, coaching, guidance, education, communication and overall positive reinforcement for change.</p>
+                <div class="mt-8 p-6 bg-slate-100 rounded-3xl">
+                    <p class="font-semibold">University of Kansas • BA, BSW, MSW</p>
+                    <p class="text-teal-600">Licensed in KS, MO, IA, IN, OH, VA</p>
+                </div>
+            </div>
+            <div class="bg-white shadow-xl rounded-3xl p-8">
+                <h3 class="font-semibold text-xl mb-4">My Style</h3>
+                <ul class="space-y-4 text-lg">
+                    <li class="flex gap-3"><span class="text-teal-600">✓</span> Direct yet compassionate</li>
+                    <li class="flex gap-3"><span class="text-teal-600">✓</span> Strong client advocate</li>
+                    <li class="flex gap-3"><span class="text-teal-600">✓</span> Focus on confidence, problem-solving & long-term success</li>
+                    <li class="flex gap-3"><span class="text-teal-600">✓</span> 10+ years sober – lived experience with substance recovery</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SPECIALTIES -->
+    <section id="specialties" class="bg-slate-100 py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">Specialties & Areas of Focus</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-8 rounded-3xl shadow">Behavioral Issues • Life Coaching • Coping Skills</div>
+                <div class="bg-white p-8 rounded-3xl shadow">Anxiety • Depression • PTSD • Trauma & TBI</div>
+                <div class="bg-white p-8 rounded-3xl shadow">Schizophrenia • Bipolar • Psychosis • Substance Use & Recovery</div>
+                <div class="bg-white p-8 rounded-3xl shadow">Anger Management • Grief & Loss • Men's Issues</div>
+                <div class="bg-white p-8 rounded-3xl shadow">Geriatrics • Chronic Illness • Life Transitions</div>
+                <div class="bg-white p-8 rounded-3xl shadow">Relationship Issues • Divorce • Career Counseling</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section id="approach" class="max-w-7xl mx-auto px-6 py-20">
+        <h2 class="text-4xl font-bold text-center mb-12">My Therapeutic Approach</h2>
+        <p class="text-center max-w-2xl mx-auto mb-12 text-lg">I use evidence-based methods tailored to your unique needs:</p>
+        <div class="grid md:grid-cols-4 gap-6 text-center">
+            <div class="bg-white p-8 rounded-3xl">Cognitive Behavioral Therapy (CBT)</div>
+            <div class="bg-white p-8 rounded-3xl">Dialectical Behavior Therapy (DBT – Certified)</div>
+            <div class="bg-white p-8 rounded-3xl">Solution-Focused • Trauma-Informed</div>
+            <div class="bg-white p-8 rounded-3xl">Strength-Based • Person-Centered</div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="bg-slate-100 py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">Experience & Credentials</h2>
+            <div class="space-y-8 max-w-4xl mx-auto">
+                <div class="bg-white p-8 rounded-3xl">
+                    <strong>2024 – Present</strong> • White Oak Counseling, Kansas City, MO<br>
+                    LCSW Clinical Therapist – Individual, couples, family & group therapy
+                </div>
+                <div class="bg-white p-8 rounded-3xl">
+                    <strong>2021 – 2024</strong> • Bridges Community Services (Bridgewood), Kansas City, MO<br>
+                    Vice President of Clinical Operations & Clinical Therapist – Served adults with serious mental illness, guardianship cases, and substance use
+                </div>
+                <div class="text-center text-slate-500">+ Prior roles in TBI rehabilitation, school-based therapy, ABA, and private recruiting (full résumé available upon request)</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEES & INSURANCE -->
+    <section class="max-w-7xl mx-auto px-6 py-20">
+        <h2 class="text-4xl font-bold text-center mb-12">Fees & Insurance</h2>
+        <div class="max-w-md mx-auto bg-white rounded-3xl p-10 shadow-xl text-center">
+            <p class="text-3xl font-bold mb-2">$140 per individual session</p>
+            <p class="mb-6">Sliding scale available</p>
+            <p class="mb-8">Cash, Check, ACH, PayPal, Venmo, Zelle accepted</p>
+            <p class="text-sm text-slate-500">I am in-network with many plans – please verify with your insurance</p>
+        </div>
+    </section>
+
+    <!-- CONTACT / APPOINTMENTS -->
+    <section id="contact" class="bg-teal-700 text-white py-20">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">Get Started Today</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <p class="text-2xl mb-8">Call or email for a free 15-minute consultation</p>
+                    <a href="tel:9134042960" class="block text-4xl font-semibold mb-4 hover:underline">(913) 404-2960</a>
+                    <a href="mailto:Joneskpeter@aol.com" class="block text-3xl font-semibold hover:underline">Joneskpeter@aol.com</a>
+                    <p class="mt-10 text-lg">15009 Linden St, Leawood, KS 66224</p>
+                    <p class="mt-8">Also available on <a href="https://www.psychologytoday.com/profile/995304" target="_blank" class="underline">Psychology Today</a></p>
+                </div>
+                <form action="https://formsubmit.co/Joneskpeter@aol.com" method="POST" class="bg-white/10 backdrop-blur rounded-3xl p-8">
+                    <input type="text" name="name" placeholder="Your name" required class="w-full mb-4 px-6 py-4 rounded-2xl bg-white/20 placeholder-white/70 text-white">
+                    <input type="email" name="email" placeholder="Your email" required class="w-full mb-4 px-6 py-4 rounded-2xl bg-white/20 placeholder-white/70 text-white">
+                    <textarea name="message" rows="5" placeholder="Tell me a little about what you're looking for..." required class="w-full mb-6 px-6 py-4 rounded-2xl bg-white/20 placeholder-white/70 text-white"></textarea>
+                    <button type="submit" class="w-full bg-white text-teal-700 py-6 text-xl font-semibold rounded-3xl hover:bg-teal-100">Send Message &amp; Request Appointment</button>
+                    <input type="hidden" name="_subject" value="New Website Appointment Request!">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-white/70 py-12 text-center">
+        <p>© 2026 Peter K. Jones, LCSW • Jones Mental Health • All Rights Reserved</p>
+        <p class="text-xs mt-2">Site hosted free on GitHub Pages</p>
+    </footer>
+
+    <script>
+        // Tailwind script already loaded
+        console.log("%c✅ Jones Mental Health website loaded", "color:#14b8a6; font-size:12px");
+    </script>
+</body>
+</html>
